@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import ServicesSection from "@/components/ServicesSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
+import FaqSection from "@/components/FaqSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import useScrollFadeIn from "@/hooks/useScrollFadeIn";
@@ -17,6 +18,7 @@ const Index = () => {
       <AboutSection />
       <ServicesSection />
       <TestimonialsSection />
+      <FaqSection />
       <ContactSection />
       <Footer />
     </div>
