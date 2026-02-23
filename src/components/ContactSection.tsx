@@ -82,6 +82,20 @@ const ContactSection = () => {
             </div>
           </div>
         </div>
+
+        {/* Map */}
+        <div className="max-w-4xl mx-auto mt-12 rounded-lg overflow-hidden border border-border shadow-sm">
+          <iframe
+            title="موقع العيادة"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.674537898553!2d46.6752957!3d24.7135517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2sKing%20Fahd%20Rd%2C%20Riyadh!5e0!3m2!1sar!2ssa!4v1700000000000"
+            width="100%"
+            height="300"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </div>
       </div>
     </section>
   );
